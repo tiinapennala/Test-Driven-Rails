@@ -14,4 +14,15 @@ RSpec.describe Todo, type: :model do
       expect(todo).not_to be_completed
     end
   end
+
+  context "#complete!" do
+    it "update completed_at" do
+      todo = Todo.create!(completed_at: nil)
+      todo.complete!
+
+      todo.reload
+
+      expect(todo).to be_completed
+    end
+  end
 end

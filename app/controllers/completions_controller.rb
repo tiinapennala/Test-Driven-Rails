@@ -1,6 +1,6 @@
 class CompletionsController < ApplicationController
   def create
-    todo.update(completed_at: DateTime.current)
+    todo.complete!
     redirect_to todos_path
   end
 
