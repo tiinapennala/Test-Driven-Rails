@@ -1,4 +1,7 @@
 class TodosController < ApplicationController
+  before_action :authenticate
+  # before_filte is deprecated
+
   def index
     @todos = Todo.all
   end
