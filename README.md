@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Todo-app done in Thoughtbot online course _Test-Driven Rails_ using RSpec and Capybara.
 
-Things you may want to cover:
+[Test-Driven Rails by Thoughtbot ->](https://thoughtbot.com/upcase/test-driven-rails)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thank you Thoughtbot for the course <3
